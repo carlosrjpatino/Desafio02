@@ -1,0 +1,80 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://img.freepik.com/foto-gratis/fondo-pantalla-textura-fondo-hormigon-marron-claro_118047-1690.jpg?w=1800");
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+header{
+    width: 100%;
+}
+.logo{
+    width: 160px;
+    padding-left: 50px;
+
+}
+
+.container {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ 
+.img_tarjeta {
+  width: 450px;
+  height: 300px;
+  border-radius: 20px;
+}
+.tarjeta_1 {
+  height: 500px;
+  width: 450px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin: 20px;
+  font-size: 18px;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  font-size: 40px;
+  padding: 30px;
+  border-radius: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+nav,
+.tarjeta_1,
+footer {
+  background-image: linear-gradient(
+    165deg,
+    #fbac8d 0,
+    #f7a38a 12.5%,
+    #f19583 25%,
+    #e68379 37.5%,
+    #d86c6c 50%,
+    #c95561 62.5%,
+    #bd425b 75%,
+    #b33259 87.5%,
+    #ac275b 100%
+  );
+}
